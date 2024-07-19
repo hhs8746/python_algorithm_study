@@ -41,7 +41,7 @@ def solution(queue1, queue2):
         else:
             break
             
-        if cnt==3*len(queue01):
+        if cnt==2*(len(queue01)+len(queue02)):
             cnt=-1
             break
             
